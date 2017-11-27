@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PhotoMapp</string>
+    <string name="title_activity_map">Map</string>
+
+    <string name="custom_font_bold">fonts/FF_DIN_Round_Pro_Bold.otf</string>
+    <string name="custom_font_regular">fonts/FF_DIN_Round_Pro_Regular.otf</string>
+    <string name="custom_font_light">fonts/FF_DIN_Round_Pro_Light.otf</string>
+</resources>

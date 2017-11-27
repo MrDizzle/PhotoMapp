@@ -1,0 +1,29 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hint_fragment_holder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jd.photomapp.view_components.pager.CustomViewPager
+        android:id="@+id/photo_fragment_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.jd.photomapp.view_components.pager.CustomViewPager>
+
+    <org.apmem.tools.layouts.FlowLayout
+        android:id="@+id/photo_fragment_pager_indicator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:paddingBottom="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp">
+
+    </org.apmem.tools.layouts.FlowLayout>
+
+</RelativeLayout>

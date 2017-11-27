@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#7fdfff</color>
+    <color name="colorPrimary">#5ba2ba</color>
+    <color name="colorPrimaryDark">#215c70</color>
+    <color name="colorPrimaryDarkest">#0D1C2E</color>
+
+    <color name="grey_blue">#343E4B</color>
+    <color name="transparent_grey_dark">#E6263238</color>
+
+    <color name="white_">#FFFFFF</color>
+    <color name="lightest_grey">#F1F1F1</color>
+    <color name="lighter_grey">#ECEDED</color>
+    <color name="light_grey">#C7CACC</color>
+    <color name="lightish_grey">#9C9E9A</color>
+    <color name="medium_grey">#5A5A5A</color>
+    <color name="darkish_grey">#444444</color>
+    <color name="dark_grey">#3a3a3a</color>
+    <color name="darker_grey">#262626</color>
+    <color name="darkerer_grey">#1D1D1D</color>
+    <color name="darkest_grey">#161616</color>
+    <color name="black_">#000000</color>
+
+    <color name="transparent_white">#90FFFFFF</color>
+    <color name="transparent_greyish">#26000000</color>
+    <color name="see_thru">#20FFFFFF</color>
+    <color name="transparent_grey">#7037474F</color>
+    <color name="transparent_layer">#CC000000</color>
+    <color name="transparent_cover">#90000000</color>
+    <color name="transparent_black">#50000000</color>
+
+    <color name="cool_grey">#37474f</color>
+    <color name="cool_grey_dark">#263238</color>
+
+    <color name="transparent">#00FFFFFF</color>
+
+</resources>

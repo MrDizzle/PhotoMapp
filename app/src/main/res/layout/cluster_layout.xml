@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:background="@drawable/rounded_square">
+
+    <com.jd.photomapp.view_components.fonts.TextViewBold
+        android:id="@+id/cluster_layout_item_num_text"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="1"
+        android:textColor="@color/white_"
+        android:textSize="36sp"
+        android:textAlignment="center"/>
+
+</RelativeLayout>

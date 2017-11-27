@@ -1,0 +1,43 @@
+The Photo Mapp app by JD
+
+This app allows users to search for pictures using the Flickr API, results are display on a Google Map.
+
+When users define a search term, results are automatically generated 1 second after typing ceases. The camera zooms out fully to allow users
+to easily see where the results are on the map.
+
+Users can define how many results they want returned from 1-100.
+
+With 'Location Mode' enabled the search term that is entered will query the Flickr API for a place matching that term. Using that place's
+coordinates, another call to the Flickr API is made to return pictures from the surrounding area of that location, the camera also
+automatically pans to that location on the map. If the search term is left blank, the user's current location will be used in the query,
+and the camera with pan to that location instead. When launching the app for the first time, it may take a few minutes for the location service
+to activate properly. If you testing the app using an emulator don't forget to send a tes coordinate in the emulator options.
+
+This app uses Google's ClusterRenderer class in order to group pictures which are close together geographically (and hence overlapping in
+the map UI) into cluster groups. This presents a clearer and less cluttered UI, but had the issue of permanently clustering photos of the
+exact same coordinates together, making them unable to be viewed.
+
+For this reason I decided to implement a viewer activity that would allow users to view and swipe through all the photos inside clusters.
+
+I did plan to introduce MapBox into the project in order to further stylise the app, but unfortunately MapBox does not currently support
+clustering on Android (Although it is on the way apparently).
+
+
+--Criticisms--
+
+My main criticisms of my project are my UI, which doesn't particularly conform to Materials Design standards. I do pay attention to Materials
+conventions normally but I wanted to showcase my ability to use and implement custom UI components and widgets.
+
+Also, I felt the UX of the auto search feature, and the accompanying panning and zooming to be a little clunky, given more time to iterate
+I would have liked to have tried different solutions to this.
+
+
+
+Thanks for giving me the opportunity to create something for you, please have a poke around, I'll look forward to hearing any criticisms
+you have.
+
+Cheers!
+JD
+
+
+
